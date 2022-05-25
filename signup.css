@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    font-family: "Courier New", Courier, monospace;
+    background: radial-gradient(#e7ebe9, #ffffff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .center form {
+    padding: 0 40px;
+  }
+
+  .social-login {
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    
+  }
+  .social-login-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    background-color: #1da1f2;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .social-login-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    background-color: #4267b2;
+    border: none;
+    color: white;
+  }
+  h5{
+    align-items: center;
+  }
+  form .field {
+    position: relative;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form .field .icon {
+    
+    display: flex;
+    background-color: #adadad;
+    color: white;
+  }
+  .icon {
+    padding: 0.5px;
+    
+  }
